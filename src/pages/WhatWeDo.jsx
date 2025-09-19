@@ -4,7 +4,7 @@ const WhatWeDo = () => {
   const industries = [
     {
       title: 'Banking & Finance',
-      description: 'When trust is the currency, speed and precision define leadership. We built machine learning platforms in Azure Machine Learning that automated decision pipelines for major U.S. banks — enabling real-time modeling, governance, and insights at scale.',
+      description: 'We built machine learning platforms in Azure ML that automated decision pipelines for major U.S. banks. The result is real-time modeling, governance, and insights at scale.',
       image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       technologies: ['Azure ML', 'Python', 'Real-time Analytics'],
       metrics: ['99.9%', 'Uptime'],
@@ -13,7 +13,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Insurance',
-      description: 'Resilience is the hallmark of the insurance world. We transformed legacy SQL Server systems into cloud-native Snowflake environments on AWS, creating automated CI/CD pipelines and data models that allow insurers to adapt and act with confidence.',
+      description: 'We transformed legacy SQL Server systems into cloud-native Snowflake environments on AWS. With predictive models and CI/CD automation, insurers can now adapt and act with confidence.',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       technologies: ['Snowflake', 'AWS', 'CI/CD Pipelines'],
       metrics: ['10x', 'Faster'],
@@ -22,7 +22,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Social Media & Digital Advertising',
-      description: 'Engagement at scale requires invisible infrastructure. Behind one of the world\'s largest social platforms, we engineered big-data pipelines in Python, Spark, and Presto that power how millions of businesses advertise, optimize campaigns, and reach customers daily.',
+      description: 'Behind one of the world’s largest platforms, we engineered big-data pipelines in Python, Spark, and Presto. These systems optimize campaigns for millions of businesses every day. By adding predictive and generative models, we made targeting smarter and experiences more relevant.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2339&q=80',
       technologies: ['Python', 'Spark', 'Presto', 'Big Data'],
       metrics: ['1M+', 'Daily Users'],
@@ -31,7 +31,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Entertainment & Streaming',
-      description: 'Storytelling thrives when data reveals its reach. For a global streaming leader, we designed analytics ecosystems with Hadoop, Hive, PySpark, and Snowflake, enabling campaign performance to be measured consistently across markets, platforms, and audiences.',
+      description: 'For a global streaming leader, we designed analytics ecosystems with Hadoop, Hive, PySpark, and Snowflake. Predictive analytics now help teams measure performance across markets and anticipate what resonates with audiences.',
       image: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80',
       technologies: ['Hadoop', 'Hive', 'PySpark', 'Snowflake'],
       metrics: ['50TB', 'Processed'],
@@ -40,7 +40,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Wellness & Consumer Brands',
-      description: 'Health data is more than numbers; it\'s personal. We unified fragmented membership data using SQL, R, and MongoDB to build insights pipelines in BigQuery, helping wellness leaders translate complex health signals into actionable engagement strategies.',
+      description: 'We unified fragmented membership data using SQL, R, and MongoDB. Insights pipelines in BigQuery now drive predictive engagement models, helping wellness leaders turn health signals into better member experiences.',
       image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       technologies: ['SQL', 'R', 'MongoDB', 'BigQuery'],
       metrics: ['23%', 'Engagement'],
@@ -49,7 +49,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Healthcare & Genomics',
-      description: 'In medicine, progress depends on precision. By integrating electronic health records and genomics data into structured cloud-based databases, we advanced personalized medicine pipelines. Custom dashboards built in R Shiny and ETL workflows in SQL/Python gave clinicians and researchers tools that directly impact patient outcomes.',
+      description: 'We integrated health records and genomics data into structured cloud databases. AI-powered dashboards and predictive workflows in SQL and Python gave clinicians tools that directly improve patient outcomes.',
       image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80',
       technologies: ['R Shiny', 'ETL', 'SQL', 'Python'],
       metrics: ['95%', 'Accuracy'],
@@ -58,7 +58,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Telecommunications',
-      description: 'The future of connectivity depends on knowing customers before they know themselves. We developed predictive models using Hadoop/Spark and collaborative filtering techniques to anticipate churn, design smarter offers, and improve customer experience at national scale.',
+      description: 'We developed churn prediction models using Hadoop/Spark and collaborative filtering. Generative AI now helps carriers design smarter offers and improve customer experiences at national scale.',
       image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
       technologies: ['Hadoop', 'Spark', 'Predictive Modeling'],
       metrics: ['30%', 'Churn Reduction'],
@@ -67,7 +67,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Retail & Industrial Supply',
-      description: 'Scale means nothing without intelligence. We delivered recommendation engines using association rule mining and Spark MLlib, transforming how a Fortune 500 supplier powers e-commerce personalization and equips direct sales teams with intelligent product suggestions.',
+      description: 'We delivered recommendation engines with Spark MLlib and association rule mining. By adding predictive and generative models, a Fortune 500 supplier transformed personalization in e-commerce and direct sales.',
       image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       technologies: ['Spark MLlib', 'Association Rules', 'ML'],
       metrics: ['40%', 'Revenue Lift'],
@@ -168,7 +168,10 @@ const WhatWeDo = () => {
           <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-white via-cyan-100 to-green-100 bg-clip-text text-transparent">
             Our Work Across Industries
           </h1>
-          <p className="text-xl text-gray-300">Delivering AI-powered precision solutions across diverse sectors</p>
+          <p className="text-xl text-gray-300">Think of us as the Swiss Army Knife for data. From data architecture to
+             engineering, from analytics to predictive modeling, from generative AI to automation, we cover the full 
+             spectrum. What sets us apart is how we bring the right tools together to address your challenge and deliver
+              results that last.</p>
         </div>
       </div>
 

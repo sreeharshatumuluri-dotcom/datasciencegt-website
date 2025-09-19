@@ -52,10 +52,11 @@ const WhoWeAre = () => {
 
             {/* Static supporting paragraph */}
             <p className="text-xl text-gray-400 mb-12 max-w-3xl leading-relaxed">
-              DataScienceGT is a boutique engineering partner delivering credible results at
-              enterprise scale. We design and build modern data stacks on AWS, Azure, and GCP
-              streaming pipelines with Python &amp; Spark, and analytics on Snowflake &amp; BigQuery
-              so your org moves from raw data to insight to impact.
+              Since 2015, DataScienceGT has been helping organizations turn complex data 
+              into clear results. We work at the intersection of data science, engineering, 
+              and strategy. Our goal is simple is to deliver solutions that are precise, scalable,
+               and built to last.
+              
             </p>
 
             {/* CTA Buttons */}
@@ -109,9 +110,12 @@ const WhoWeAre = () => {
                 to actionable insights.
               </p>
               <p className="text-gray-400 text-lg mb-8">
-                Our strength lies in credibility. For nearly a decade, we've delivered
-                AI-powered solutions with the depth of a global firm and the agility of
-                a boutique team.
+                Our credibility comes from experience. For nearly a decade, we’ve supported 
+                enterprises with the depth of a global firm and the agility of a boutique team. 
+                We design architectures in AWS, Azure, and GCP. We build data pipelines in Python, 
+                Spark, and SQL. And we enable analytics and AI through platforms like Snowflake, 
+                Hadoop, Hive, and BigQuery. Increasingly, we help clients use predictive models, 
+                automation, and generative AI to unlock faster decisions and new opportunities.
               </p>
 
               {/* Tech Stack */}

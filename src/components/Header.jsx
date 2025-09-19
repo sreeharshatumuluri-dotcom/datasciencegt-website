@@ -6,8 +6,8 @@ const Header = () => {
 
   const navigation = [
     { path: '/', label: 'Who We Are' },
-    { path: '/what-we-do', label: 'Services' },
-    { path: '/testimonials', label: 'Work' },
+    { path: '/what-we-do', label: 'What We Do?' },
+    { path: '/testimonials', label: 'Testimonials' },
     { path: '/contact', label: 'Contact' }
   ];
 
